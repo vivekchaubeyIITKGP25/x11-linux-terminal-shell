@@ -1,0 +1,29 @@
+# Compiled object files and binaries
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+myterm
+tests/test_lcs
+tests/test_parser
+tests/*.o
+
+# Temporary working files and runtime logs
+.temp.*
+*.log
+*.tmp
+*.~
+
+# History persistence (don't commit local command history!)
+.myterm_history
+~/.myterm_history
+
+# OS & IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
