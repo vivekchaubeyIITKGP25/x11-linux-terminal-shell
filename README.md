@@ -7,13 +7,6 @@
 
 ---
 
-## Key Technical Accomplishments
-- **MVC-Style Modularity**: Split a 1,900-line monolithic codebase into clean interface headers (`include/`) and independent functional domain modules (`src/`).
-- **Headless UI Decoupling**: Separated X11 graphical rendering from system shell mechanics via conditional preprocessor guards (`-DWITHOUT_X11`), allowing algorithms and command parsers to be unit tested without launching a graphical window or X server.
-- **Automated Verification**: Engineered a custom zero-dependency testing macro harness in C and created automated test build targets (`make test`) that verify 100% of algorithmic edge cases across 33 test assertions.
-
----
-
 ## Core Feature Highlights
 
 ### 1. Operating Systems Mechanics & IPC
